@@ -1,0 +1,49 @@
+function Home() {
+  return (
+    <section className="min-h-screen bg-white flex items-center px-4 sm:px-6 py-8 sm:py-16 -mt-16 pt-20 sm:pt-32">
+      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-8 sm:gap-10">
+        <div className="text-center md:text-left max-w-xl w-full">
+          <button className="bg-blue-900 text-white font-semibold py-2 px-4 mb-4 sm:mb-6 rounded shadow-sm border border-blue-800 text-sm sm:text-base">
+            Hi there!
+          </button>
+
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 leading-tight mb-4 sm:mb-6">
+            I'm Olamilekan Egbeyemi
+          </h1>
+
+          <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
+            A passionate Front-End Developer crafting responsive, accessible,
+            and user-friendly websites. I specialize in Javascript,HTML,React,NextJS,Tailwind CSS, and
+            building beautiful UI experiences that users love.
+          </p>
+
+          <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-3 sm:gap-4">
+            <a
+              href="/contact"
+              className="bg-blue-900 text-white font-semibold py-2.5 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-blue-800 transition text-sm sm:text-base text-center"
+            >
+              HIRE ME
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1E0h5hp7t1xCFumDPU0RIoSDo9MZxfAOd/view?usp=drive_link"
+              download
+              className="bg-white text-blue-900 font-semibold py-2.5 sm:py-3 px-4 sm:px-6 border border-blue-800 rounded-md hover:bg-blue-900 hover:text-white transition text-sm sm:text-base text-center"
+            >
+              VIEW CV
+            </a>
+          </div>
+        </div>
+
+        <div className="w-48 sm:w-64 md:w-80 lg:w-[360px] h-48 sm:h-64 md:h-80 lg:h-[360px] rounded-full overflow-hidden shadow-lg border-4 border-blue-900 mb-4 md:mb-0">
+          <img
+            src="https://media.istockphoto.com/id/2183915020/nl/foto/modern-businessman-working-in-contemporary-office-space.jpg?s=612x612&w=0&k=20&c=o-lzHZvwfJPKCbB-ycguTQNThP80iY8gEf8Ntkc7wg4="
+            alt="Egbeyemi Olamilekan"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Home;
