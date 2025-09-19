@@ -2,7 +2,7 @@ import { FaLaptopCode, FaUsers, FaLightbulb } from "react-icons/fa";
 
 function About() {
   return (
-    <section className="py-12 sm:py-16 md:py-24 px-4 sm:px-6 bg-gray-50 text-center min-h-screen">
+    <section className="py-12 sm:py-16 md:py-24 px-4 sm:px-6 bg-gray-50/70 italic text-center min-h-screen">
       <h1 className="text-3xl sm:text-4xl font-extrabold text-blue-900 mb-6 sm:mb-8">About Me</h1>
 
       <div className="max-w-4xl mx-auto text-gray-700 text-base sm:text-lg space-y-4 sm:space-y-6 text-left px-2">
@@ -76,16 +76,20 @@ function About() {
         Tech Stack & Skills
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 lg:gap-6 max-w-4xl mx-auto px-2">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-3 sm:gap-4 lg:gap-6 max-w-4xl mx-auto px-2">
         {[
           "HTML",
           "CSS",
           "JavaScript",
+          "TypeScript",
           "React",
+          "Next.JS",
           "TailwindCSS",
           "Git",
-          "Next.JS",
-          "Figma",
+          "GitHub",
+          "VS Code",
+          "Responsive Design",
+          "Accessibility", 
         ].map((skill) => (
           <div
             key={skill}

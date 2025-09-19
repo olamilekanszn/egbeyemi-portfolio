@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-blue-900 to-blue-950 text-blue-100 pt-16 pb-10">
+    <footer className="bg-gradient-to-b from-blue-900 to-blue-950 text-blue-100/70 italic pt-16 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-10">
         <div>
           <h1 className="text-2xl font-bold text-white mb-2">O.SZN</h1>
-          <p className="text-xs uppercase tracking-wider text-blue-300 mb-4">Front-End Developer</p>
+          <p className="text-xs uppercase tracking-wider text-white mb-4">Front-End Developer</p>
           <div className="space-y-3 text-sm leading-relaxed">
             <h3>
               Got a question, project or want to work together on something? Feel free to reach out.
@@ -68,7 +68,7 @@ function Footer() {
               <FaTwitter />
             </a>
           </div>
-          <div className="mt-6 text-xs text-blue-300">
+          <div className="mt-6 text-xs text-white">
             Available for freelance and full-time roles.
           </div>
         </div>

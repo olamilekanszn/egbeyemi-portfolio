@@ -98,7 +98,7 @@ function Contact() {
   };
 
   return (
-    <section className="min-h-screen bg-gray-50 py-12 sm:py-16 md:py-20 px-4 sm:px-6 flex items-center justify-center">
+    <section className="min-h-screen bg-gray-50/70 italic py-12 sm:py-16 md:py-20 px-4 sm:px-6 flex items-center justify-center">
       <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
         <div className="text-center md:text-left order-2 md:order-1">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-blue-900 mb-4 sm:mb-6">
@@ -106,7 +106,7 @@ function Contact() {
           </h2>
           <p className="text-gray-700 text-base sm:text-lg mb-6 sm:mb-8">
             I&apos;m currently open to{" "}
-            <strong className="text-blue-800">freelance opportunities</strong>,
+            <strong className="text-blue-900">freelance opportunities</strong>,
             remote jobs, collaborations, or just connecting with fellow
             developers and creatives. If you have an idea or project you&apos;d
             like to discuss feel free to reach out!
@@ -117,7 +117,7 @@ function Contact() {
               href="https://linkedin.com/in/olamilekan-egbeyemi"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-800 transition"
+              className="hover:text-blue-900 transition"
               title="LinkedIn"
             >
               <FaLinkedin />

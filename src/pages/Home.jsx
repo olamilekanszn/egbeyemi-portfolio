@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <section className="min-h-screen bg-white flex items-center px-4 sm:px-6 py-8 sm:py-16 -mt-16 pt-20 sm:pt-32">
+    <section className="min-h-screen bg-white/70 italic flex items-center px-4 sm:px-6 py-8 sm:py-16 -mt-16 pt-20 sm:pt-32">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-8 sm:gap-10">
         <div className="text-center md:text-left max-w-xl w-full">
           <button className="bg-blue-900 text-white font-semibold py-2 px-4 mb-4 sm:mb-6 rounded shadow-sm border border-blue-800 text-sm sm:text-base">
@@ -25,7 +25,7 @@ function Home() {
               HIRE ME
             </a>
             <a
-              href="https://drive.google.com/file/d/1E0h5hp7t1xCFumDPU0RIoSDo9MZxfAOd/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1NRDOtLueZR4oUjFojnxbt_JnoKdXAeT0/view?usp=drive_link"
               download
               className="bg-white text-blue-900 font-semibold py-2.5 sm:py-3 px-4 sm:px-6 border border-blue-800 rounded-md hover:bg-blue-900 hover:text-white transition text-sm sm:text-base text-center"
             >
