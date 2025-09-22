@@ -14,17 +14,17 @@ const projects = [
     link: "https://yourportfolio.com",
   },
   {
-    title: "My Workspace",
-    description: "A HTML + CSS app that fetches and displays weather data from an API.",
-    image: "/src/assets/workspace.png",
-    tech: ["HTML", "CSS"],
-    link: "https://yourweatherapp.com",
+    title: "TrustFX",
+    description: "A financial services platform built with React and Tailwind CSS.",
+    image: "/src/assets/trustfx.png",
+    tech: ["JavaScript", "Next.js", "Tailwind", "API"],
+    link: "https://trustfx.vercel.app",
   },
   {
     title: "ReInvent-Security",
     description: "A TypeScript + Tailwind platform offering cybersecurity mentorship and skill development.",
     image: "/src/assets/reinvent.png",
-    tech: ["TypeScript", "Tailwind", "Figma"],
+    tech: ["TypeScript", "Tailwind", "API"],
     link: "https://reinventsecurity.org",
   },
 ];
