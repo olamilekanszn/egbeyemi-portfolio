@@ -8,7 +8,7 @@ function About() {
       <div className="max-w-4xl mx-auto text-gray-700 text-base sm:text-lg space-y-4 sm:space-y-6 text-left px-2">
         <p>
           Hello! I&apos;m{" "}
-          <strong className="text-blue-800">Egbeyemi Olamilekan</strong>, a
+          <strong className="text-blue-800">Olamilekan Egbeyemi</strong>, a
           passionate frontend developer with a skill for building engaging,
           performant, and accessible user interfaces.
         </p>

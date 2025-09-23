@@ -1,17 +1,17 @@
 const projects = [
   {
-    title: "BlackJack Game",
-    description: "A fun, interactive JavaScript and CSS-based BlackJack game.",
-    image: "/blackjack.png",
-    tech: ["JavaScript", "CSS"],
-    link: "https://your-blackjack-demo.com",
+    title: "Balancee",
+    description: "An expense tracker website built with TypeScript, React, and Tailwind CSS.",
+    image: "/balancee.png",
+    tech: ["Typescript", "React", "Tailwind"],
+    link: "https://rewardsumm.vercel.app/",
   },
   {
-    title: "Personal Portfolio",
-    description: "A modern portfolio website showcasing my work, built with React and Tailwind CSS.",
-    image: "/myportfolio.png",
-    tech: ["React", "Tailwind"],
-    link: "https://egbeyemi-portfolio.vercel.app/",
+    title: "Netflix Clone",
+    description: "A Netflix clone application built with TypeScript, Next.js, and Tailwind CSS.",
+    image: "/netflix clone.png",
+    tech: ["TypeScript","Next.js", "Tailwind", "API"],
+    link: "https://mayana-movie-app.vercel.app/",
   },
   {
     title: "TrustFX",
@@ -19,6 +19,20 @@ const projects = [
     image: "/trustfx.png",
     tech: ["JavaScript", "Next.js", "Tailwind", "API"],
     link: "https://trustfx.vercel.app",
+  },
+   {
+    title: "Personal Portfolio",
+    description: "A modern portfolio website showcasing my work, built with React and Tailwind CSS.",
+    image: "/myportfolio.png",
+    tech: ["React", "Tailwind"],
+    link: "https://egbeyemi-portfolio.vercel.app/",
+  },
+  {
+    title: "BlackJack Game",
+    description: "A fun, interactive JavaScript and CSS-based BlackJack game.",
+    image: "/blackjack.png",
+    tech: ["JavaScript", "CSS"],
+    link: "https://ablackjack.vercel.app/",
   },
   {
     title: "ReInvent-Security",
