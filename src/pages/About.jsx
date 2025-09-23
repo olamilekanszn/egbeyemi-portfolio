@@ -77,27 +77,59 @@ function About() {
       </h2>
 
       <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-3 sm:gap-4 lg:gap-6 max-w-4xl mx-auto px-2">
-        {[
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "TypeScript",
-          "React",
-          "Next.JS",
-          "TailwindCSS",
-          "Git",
-          "GitHub",
-          "VS Code",
-          "Responsive Design",
-          "Accessibility", 
-        ].map((skill) => (
-          <div
-            key={skill}
-            className="bg-white border border-gray-200 rounded-lg p-3 sm:p-4 text-center shadow hover:shadow-md transition"
-          >
-            <span className="text-blue-800 font-medium text-sm sm:text-base">{skill}</span>
-          </div>
-        ))}
+        {(() => {
+          const skills = [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.JS",
+            "TailwindCSS",
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Responsive Design",
+            "Accessibility",
+          ];
+
+          const iconByName = {
+            "HTML": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+            "CSS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+            "JavaScript": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            "TypeScript": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+            "React": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "Next.JS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+            "TailwindCSS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+            "Git": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+            "GitHub": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+            "VS Code": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+          };
+
+          return skills.map((skill) => {
+            const icon = iconByName[skill];
+            return (
+              <div
+                key={skill}
+                className="bg-white border border-gray-200 rounded-lg p-3 sm:p-4 text-center shadow hover:shadow-md transition"
+              >
+                {icon ? (
+                  <img
+                    src={icon}
+                    alt={`${skill} icon`}
+                    className="h-8 sm:h-10 mx-auto mb-2 sm:mb-3"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="h-8 sm:h-10 mb-2 sm:mb-3 flex items-center justify-center">
+                    <span className="text-blue-800 text-lg sm:text-xl">★</span>
+                  </div>
+                )}
+                <span className="text-blue-800 font-medium text-sm sm:text-base">{skill}</span>
+              </div>
+            );
+          });
+        })()}
       </div>
     </section>
   );
