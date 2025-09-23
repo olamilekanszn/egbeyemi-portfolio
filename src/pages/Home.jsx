@@ -1,4 +1,22 @@
+import { useEffect, useState } from 'react';
+
 function Home() {
+  const fullText = "I'm Olamilekan Egbeyemi";
+  const [displayed, setDisplayed] = useState("");
+
+  useEffect(() => {
+    let index = 0;
+    const intervalId = setInterval(() => {
+      if (index <= fullText.length) {
+        setDisplayed(fullText.slice(0, index));
+        index += 1;
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 100);
+
+    return () => clearInterval(intervalId);
+  }, []);
   return (
     <section className="min-h-screen snap-start bg-white/70 italic flex items-center px-4 sm:px-6 py-8 sm:py-16 -mt-16 pt-20 sm:pt-32">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-8 sm:gap-10">
@@ -8,7 +26,8 @@ function Home() {
           </button>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 leading-tight mb-4 sm:mb-6">
-            I'm Olamilekan Egbeyemi
+            {displayed}
+            <span className="inline-block align-middle ml-1 h-8 border-r-2 border-blue-900 animate-pulse"></span>
           </h1>
 
           <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
