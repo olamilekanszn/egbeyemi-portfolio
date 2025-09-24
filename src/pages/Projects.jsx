@@ -1,28 +1,28 @@
 const projects = [
   {
     title: "Balancee",
-    description: "An expense tracker website built with TypeScript, React, and Tailwind CSS.",
+    description: "An expense tracker website",
     image: "/balancee.png",
     tech: ["Typescript", "React", "Tailwind"],
     link: "https://rewardsumm.vercel.app/",
   },
   {
     title: "Netflix Clone",
-    description: "A Netflix clone application built with TypeScript, Next.js, and Tailwind CSS.",
+    description: "A Netflix clone application",
     image: "/netflix clone.png",
     tech: ["TypeScript","Next.js", "Tailwind", "API"],
     link: "https://mayana-movie-app.vercel.app/",
   },
   {
     title: "TrustFX",
-    description: "A financial services platform built with React and Tailwind CSS.",
+    description: "A financial services platform ",
     image: "/trustfx.png",
     tech: ["JavaScript", "Next.js", "Tailwind", "API"],
     link: "https://trustfx.vercel.app",
   },
    {
     title: "Personal Portfolio",
-    description: "A modern portfolio website showcasing my work, built with React and Tailwind CSS.",
+    description: "A modern portfolio website showcasing my work.",
     image: "/myportfolio.png",
     tech: ["React", "Tailwind"],
     link: "https://egbeyemi-portfolio.vercel.app/",
@@ -33,13 +33,6 @@ const projects = [
     image: "/blackjack.png",
     tech: ["JavaScript", "CSS"],
     link: "https://ablackjack.vercel.app/",
-  },
-  {
-    title: "ReInvent-Security",
-    description: "A TypeScript + Tailwind platform offering cybersecurity mentorship and skill development.",
-    image: "/reinvent.png",
-    tech: ["TypeScript", "Tailwind", "API"],
-    link: "https://reinventsecurity.org",
   },
 ];
 

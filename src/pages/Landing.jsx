@@ -5,7 +5,7 @@ import Contact from './Contact';
 
 function Landing() {
   return (
-    <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+    <div className="h-screen overflow-y-scroll scroll-smooth">
       <Home />
       <About />
       <Projects />

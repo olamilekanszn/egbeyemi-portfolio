@@ -21,7 +21,7 @@ function Home() {
     <section className="min-h-screen snap-start bg-white/70 italic flex items-center px-4 sm:px-6 py-8 sm:py-16 -mt-16 pt-20 sm:pt-32">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-8 sm:gap-10">
         <div className="text-center md:text-left max-w-xl w-full">
-          <button className="bg-blue-900 text-white font-semibold py-2 px-4 mb-4 sm:mb-6 rounded shadow-sm border border-blue-800 text-sm sm:text-base animate-bounce">
+          <button className="bg-blue-900 text-white font-semibold py-2 px-4 mb-4 sm:mb-6 rounded shadow-sm border border-blue-800 text-sm sm:text-base">
             Hi there!
           </button>
 
@@ -32,8 +32,8 @@ function Home() {
 
           <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
             A passionate Front-End Developer crafting responsive, accessible,
-            and user-friendly websites. I specialize in Javascript,HTML,React,NextJS,Tailwind CSS, and
-            building beautiful UI experiences that users love.
+            and user-friendly websites. I love to create beautiful and
+            responsive websites utilizing reusable components.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-3 sm:gap-4">

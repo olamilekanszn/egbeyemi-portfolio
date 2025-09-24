@@ -88,9 +88,6 @@ function About() {
             "TailwindCSS",
             "Git",
             "GitHub",
-            "VS Code",
-            "Responsive Design",
-            "Accessibility",
           ];
 
           const iconByName = {
@@ -103,7 +100,6 @@ function About() {
             "TailwindCSS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
             "Git": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
             "GitHub": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-            "VS Code": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
           };
 
           return skills.map((skill) => {
