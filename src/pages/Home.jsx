@@ -38,7 +38,7 @@ function Home() {
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-3 sm:gap-4">
             <a
-              href="https://egbeyemi-portfolio.vercel.app/contact"
+              href="/contact"
               className="bg-blue-900 text-white font-semibold py-2.5 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-blue-800 transition text-sm sm:text-base text-center"
             >
               HIRE ME
