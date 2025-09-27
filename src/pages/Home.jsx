@@ -55,7 +55,7 @@ function Home() {
 
         <div className="w-48 sm:w-64 md:w-80 lg:w-[360px] h-48 sm:h-64 md:h-80 lg:h-[360px] rounded-full overflow-hidden shadow-lg border-4 border-blue-900 mb-4 md:mb-0">
           <img
-            src="https://media.istockphoto.com/id/2183915020/nl/foto/modern-businessman-working-in-contemporary-office-space.jpg?s=612x612&w=0&k=20&c=o-lzHZvwfJPKCbB-ycguTQNThP80iY8gEf8Ntkc7wg4="
+            src="/szn.jpg"
             alt="Egbeyemi Olamilekan"
             className="w-full h-full object-cover"
           />
