@@ -18,7 +18,7 @@ function Home() {
     return () => clearInterval(intervalId);
   }, []);
   return (
-    <section className="min-h-screen snap-start bg-white/70 italic flex items-center px-4 sm:px-6 py-8 sm:py-16 -mt-16 pt-20 sm:pt-32">
+    <section className="min-h-screen snap-start bg-white/70 flex items-center px-4 sm:px-6 py-8 sm:py-16 -mt-16 pt-20 sm:pt-32">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-8 sm:gap-10">
         <div className="text-center md:text-left max-w-xl w-full">
           <button className="bg-blue-900 text-white font-semibold py-2 px-4 mb-4 sm:mb-6 rounded shadow-sm border border-blue-800 text-sm sm:text-base">

@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-blue-900 to-blue-950 text-white/70 italic shadow-lg">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-blue-900 to-blue-950 text-white/70 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}

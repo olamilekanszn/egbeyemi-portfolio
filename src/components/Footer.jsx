@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-blue-900 to-blue-950 text-blue-100/70 italic pt-16 pb-10">
+    <footer className="bg-gradient-to-b from-blue-900 to-blue-950 text-blue-100/70 pt-16 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-10">
         <div>
           <h1 className="text-2xl font-bold text-white mb-2">O.SZN</h1>
