@@ -14,7 +14,7 @@ const projects = [
     link: "https://mayana-movie-app.vercel.app/",
   },
   {
-    title: "Shopify",
+    title: "Shoply",
     description: "An e-commerce website",
     image: "/shoply.png",
     tech: ["JavaScript", "React", "Tailwind"],
