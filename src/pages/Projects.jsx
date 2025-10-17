@@ -10,14 +10,21 @@ const projects = [
     title: "Netflix Clone",
     description: "A Netflix clone application",
     image: "/netflix clone.png",
-    tech: ["TypeScript","Next.js", "Tailwind", "API"],
+    tech: ["TypeScript","Next.js", "Tailwind",],
     link: "https://mayana-movie-app.vercel.app/",
+  },
+  {
+    title: "Shopify",
+    description: "An e-commerce website",
+    image: "/shoply.png",
+    tech: ["JavaScript", "React", "Tailwind"],
+    link: "https://shoply-vlm8.vercel.app/",
   },
   {
     title: "TrustFX",
     description: "A financial services platform ",
     image: "/trustfx.png",
-    tech: ["JavaScript", "Next.js", "Tailwind", "API"],
+    tech: ["JavaScript", "Next.js", "Tailwind"],
     link: "https://trustfx.vercel.app",
   },
    {
